@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HrManagement.DataAccess.Models;
 
-public partial class Project
+public partial class Project : IBaseModel
 {
     [Key]
     public int Id { get; set; }
